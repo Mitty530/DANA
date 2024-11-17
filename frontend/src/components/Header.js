@@ -1,6 +1,6 @@
 
 function Header() {
-    
+
     return (
         <header className="ot-header header-layout1">
             <div className="sticky-wrapper">
@@ -13,7 +13,7 @@ function Header() {
                                         <a href="index.html" className="h4">
                                             {/* <img src="/assets/img/logo.svg" alt="Carva" /> */}
                                             DNA - Smart Parking
-                                            </a>
+                                        </a>
 
 
                                     </div>
@@ -30,8 +30,15 @@ function Header() {
                                 </div>
                                 <div className="col-auto">
                                     <div className="header-button">
-                                        <a href="sign-up.html" className="ot-btn style2">Log In / Sign Up</a>
-                                        <button type="button" className="ot-menu-toggle d-inline-block d-lg-none"><i className="fal fa-bars"></i></button>
+                                        <a href="/auth" className="ot-btn style2">
+                                            Log In / Sign Up
+                                        </a>
+                                        <button
+                                            type="button"
+                                            className="ot-menu-toggle d-inline-block d-lg-none"
+                                        >
+                                            <i className="fal fa-bars"></i>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
