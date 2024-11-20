@@ -7,8 +7,8 @@ function Guide() {
                     <div class="hero-style1">
                         <div class="row align-items-center">
                             <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-                                <h2 class="hero-title mb-20">Earn Money at <br /> Your Own Pace</h2>
-                                <p class="hero-text">Vitae, et eu eget eu viverra lectus a odio. Nisl in posuere pretium amet morbi phasellus ut neque.</p>
+                                <h2 class="hero-title mb-20">Find Parking <br /> Pay and reserve</h2>
+                                <p class="hero-text">Find and compare prices on hourly, monthly, pay with fast guest checkout, and get a prepaid parking pass/reservation instantly via email</p>
                                 <div class="mt-5">
                                     <a href="driver-sign-up.html" class="ot-btn style3">Apply to drive</a>
                                 </div>

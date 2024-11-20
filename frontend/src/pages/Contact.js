@@ -5,9 +5,9 @@ function Contact() {
             <div class="container">
                 <div class="page-top">
                     <h1 class="page-title">Contact Our Team</h1>
-                    <p class="page-text">Odio enim adipiscing adipiscing viverra nunc aenean mi, justo.
-                         Ornare non condimentum cursus ornare diam. Nullam aliquet ipsum tortor sed.
-                         
+                    <p class="page-text">For non-urgent matters, send us a message and we will 
+                        get back to you via email as soon as possible
+
                          </p>
                 </div>
                 <form action="#" class="contact-form">
