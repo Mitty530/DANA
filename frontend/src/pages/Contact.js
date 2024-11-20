@@ -4,7 +4,7 @@ function Contact() {
         <section class="space contact-sec">
             <div class="container">
                 <div class="page-top">
-                    <h1 class="page-title">Contact Our Team</h1>
+                    <h1 class="page-title">Contact DANA</h1>
                     <p class="page-text">For non-urgent matters, send us a message and we will 
                         get back to you via email as soon as possible
 
