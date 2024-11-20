@@ -31,9 +31,10 @@ const AuthPage = () => {
                 {/* <h2 className="text-center">{isSignUp ? "Sign Up" : "Log In"}</h2> */}
                 <form onSubmit={handleAuth} className="sign-in-form">
                     <div class="form-logo">
-                        <img src="/assets/img/logo-small.svg" alt="Carva" />
+                        {/* <img src="/assets/img/logo-small.svg" alt="Carva" /> */}
+                        <h3> <b>DANA - Smart Parking</b> </h3>
                     </div>
-                    <h3 className="form-title">Welcome back!</h3>
+                    <h4 className="form-title">Welcome back!</h4>
                     <p className="form-text">Sign in to your account</p>
                     <div className="form-group">
                         <label>Email:</label>

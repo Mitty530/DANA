@@ -52,7 +52,7 @@ function Home() {
             {/* section 2 */}
             <section id="feature-icons-id" className="css-kh6mfs py-5 bg-light">
                 <div className="container">
-                    <h2 className="text-center fw-bold text-primary mb-5">How DNA - Smart Parking Works</h2>
+                    <h2 className="text-center fw-bold text-primary mb-5">How DANA - Smart Parking Works</h2>
                     <div className="row text-center gy-4">
                         <div className="col-md-4">
                             <div className="p-4 ride-box rounded-10">
@@ -107,8 +107,10 @@ function Home() {
                         <span className="subtitle">Safety</span>
                         <h2 className="sec-title">Our Safety Protocol</h2>
                     </div>
-                    <p className="mb-30">Tristique tortor dui morbi eu. Nullam ornare lorem gravida amet lacus, ut. Eget aenean volutpat diam ullamcorper at nunc lorem gravida.</p>
-                    <a href="about.html" className="ot-btn">Learn More</a>
+                    <p className="mb-30">
+                         Discover our safety conditions for you to park your car easily in safe place
+                         </p>
+                    <a href="/safety" className="ot-btn">Learn More</a>
                 </div>
             </div>
             <div className="row flex-row-reverse space-extra-top wow fadeInUp" data-wow-delay="0.1s">
@@ -124,11 +126,14 @@ function Home() {
                 </div>
                 <div className="col-xl-5 col-lg-6">
                     <div className="title-area mb-4">
-                        <span className="subtitle">Vaccine access fund</span>
-                        <h2 className="sec-title">Support Our Vaccine <br /> Access Fund</h2>
+                        <span className="subtitle">Drive Trend</span>
+                        <h2 className="sec-title">Monthly, Weekly<br /> Drive time track </h2>
                     </div>
-                    <p className="mb-30">Vel enim tortor arcu mi ut aliquam ultrices. Nunc, sit turpis nisl cursus mauris pretium massa elit.</p>
-                        <a href="#" className="ot-btn" >Donate</a>
+                    <p className="mb-30">
+                       
+                         Track easily your Weekly, Monthly drive time, safe your money and time.
+                         </p>
+                        <a href="/track" className="ot-btn">Track Now</a>
                 </div>
             </div>
         </div>

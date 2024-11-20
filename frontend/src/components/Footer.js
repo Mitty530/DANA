@@ -10,18 +10,20 @@ function Footer() {
                             <div className="ot-widget-about">
                                 <div className="about-logo">
                                     <a href="index.html">
-                                        <img src="assets/img/logo.svg" alt="Carva" />
+                                        {/* <img src="assets/img/logo.svg" alt="Carva" /> */}
+                                        DANA - Smart Parking
                                     </a>
                                 </div>
-                                <p className="about-text">15 Street No, Ox Building, Near Station, NewYork 1356 USA.</p>
-                                <h3 className="footer-info-title">Toll Free <span className="text-theme">Helpline</span></h3>
-                                <a href="tel:+11234567890" className="footer-link">(+1) 123 4567 890</a>
+                                <p className="about-text">
+                                    Save Time and Money when parking your car in Abu Dhabi with our smart system parking cars
+                                    </p>
+                               
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-auto col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div className="widget footer-widget widget_nav_menu">
-                            <h4 className="widget_title">Quick Links</h4>
+                            <h4 className="widget_title">Menu</h4>
                             <div className="menu-all-pages-container">
                                 <ul className="menu">
                                     <li><a href="about.html">About</a></li>
@@ -35,13 +37,13 @@ function Footer() {
                     </div>
                     <div className="col-lg-auto col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div className="widget footer-widget widget_nav_menu">
-                            <h4 className="widget_title">Products</h4>
+                            <h4 className="widget_title">Functionalities</h4>
                             <div className="menu-all-pages-container">
                                 <ul className="menu">
-                                    <li><a href="ride.html">Ride</a></li>
-                                    <li><a href="drive.html">Drive</a></li>
-                                    <li><a href="event.html">Events</a></li>
-                                    <li><a href="sign-in.html">Log In</a></li>
+                                    <li><a href="ride.html">Shared Maps</a></li>
+                                    <li><a href="drive.html">Explore Maps </a></li>
+                                    <li><a href="event.html">Walking guides</a></li>
+                                    <li><a href="sign-in.html">EV charges (Features)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -49,9 +51,8 @@ function Footer() {
                     <div className="col-lg-auto col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div className="widget footer-widget">
                             <div className="btn-widget">
-                                <a href="rider-sign-up.html" className="ot-btn">Sign Up to Ride</a>
-                                <a href="driver-sign-up.html" className="ot-btn">Become a Driver</a>
-                                <a href="ride-on-web.html" className="ot-btn">Ride on Web</a>
+                                <a href="/find" className="ot-btn">Find Next Parking</a>
+                                <a href="/Auth" className="ot-btn">Discover Now</a>
                             </div>
                         </div>
                     </div>
@@ -62,13 +63,13 @@ function Footer() {
             <div className="copyright-wrap">
                 <div className="row justify-content-between">
                     <div className="col-lg-auto">
-                        <p className="copyright">© Copyright 2024 by <a href="https://wrapbootstrap.com/user/themeleaf">Tortoiz Themes</a>. All Right Reserved.</p>
+                        <p className="copyright">© Copyright 2024 by <a href="https:://www.dana-smartparking.com">DANA - Smart Parking</a>. All Right Reserved.</p>
                     </div>
                     <div className="col-lg-auto">
                         <div className="footer-social">
-                            {/* <a href="#"><i className="fab fa-twitter"></i></a>
-                            <a href="#"><i className="fab fa-linkedin"></i></a>
-                            <a href="#"><i className="fab fa-facebook"></i></a> */}
+                            <a href="/twitter"><i className="fab fa-twitter"></i></a>
+                            <a href="/linkedin"><i className="fab fa-linkedin"></i></a>
+                            <a href="/facebook"><i className="fab fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>
