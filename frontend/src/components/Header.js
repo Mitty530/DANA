@@ -10,9 +10,9 @@ function Header() {
                             <div className="row align-items-center justify-content-between">
                                 <div className="col-auto">
                                     <div className="header-logo">
-                                        <a href="index.html" className="h4">
+                                        <a href="/" className="h4">
                                             {/* <img src="/assets/img/logo.svg" alt="Carva" /> */}
-                                            DNA - Smart Parking
+                                            DANA - Smart Parking
                                         </a>
 
 
@@ -21,10 +21,10 @@ function Header() {
                                 <div className="col-auto ms-auto">
                                     <nav className="main-menu">
                                         <ul>
-                                            <li><a href="about.html">Guide</a></li>
-                                            <li><a href="ride.html">Download App</a></li>
-                                            <li><a href="drive.html">Features</a></li>
-                                            <li><a href="sign-in.html">Contact Us</a></li>
+                                            <li><a href="/">Home</a></li>
+                                            <li><a href="/guide">Guide</a></li>
+                                            <li><a href="/features">Features</a></li>
+                                            <li><a href="/contact">Contact Us</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -33,10 +33,7 @@ function Header() {
                                         <a href="/auth" className="ot-btn style2">
                                             Log In / Sign Up
                                         </a>
-                                        <button
-                                            type="button"
-                                            className="ot-menu-toggle d-inline-block d-lg-none"
-                                        >
+                                        <button type="button" className="ot-menu-toggle d-inline-block d-lg-none"  >
                                             <i className="fal fa-bars"></i>
                                         </button>
                                     </div>
